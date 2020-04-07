@@ -6,6 +6,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+	textarea {
+		font-size: 20px;
+		color : blue;
+	}
+</style>
+
 </head>
 
 <script type="text/javascript">
@@ -15,13 +22,13 @@
 		ws.onmessage = function(data) {
 			console.log(data.data);
 			/* $("<p>"+data.data+"</p>").prependTo('#chat'); */
-			$("#arr0").val(data.data);
+			$("#arr9").val(data.data);
 			$("#test").val("");
 			for(var i=0;i<10;i++){
 				$("#test").val($("#test").val() + $("#arr"+i).val() + "\n");
 			}
-			for(var i=9;i>0;i--){
-				$("#arr"+i).val($("#arr"+(i-1)).val());
+			for(var i=0;i<9;i++){
+				$("#arr"+i).val($("#arr"+(i+1)).val());
 			}
 		}
 		$('#startBtn').hide();
@@ -44,7 +51,7 @@
 		<p id="chat"></p>
 	</div>
 	<div>
-		<textarea rows="15" cols="50" id = "test"></textarea>
+		<textarea rows="10" cols="30" id = "test"></textarea>
 	</div>
 	<%for(int i=0;i<10;i++){%>
 		<div>
