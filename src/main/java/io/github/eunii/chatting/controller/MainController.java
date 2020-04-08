@@ -12,9 +12,14 @@ public class MainController {
 		ModelAndView mv = new ModelAndView("chat");
 		return mv;
 	}
-//	@RequestMapping("/test")
-//	public ModelAndView test() {
-//		ModelAndView mv = new ModelAndView("test");
-//		return mv;
-//	}
+	@RequestMapping("/test")
+	public ModelAndView test() {
+		ModelAndView mv = new ModelAndView("test");
+		return mv;
+	}
+	@RequestMapping("/index")
+	public ModelAndView index() {
+		ModelAndView mv = new ModelAndView("index");
+		return mv;
+	}
 }
