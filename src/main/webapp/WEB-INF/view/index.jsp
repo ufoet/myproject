@@ -12,19 +12,19 @@
 		<div class="hero__content">
 			<div class="hero__content-wrapper">
 				<div class="hero__title-wrapper">
-					<div class="hero__title-large">Hello!</div>
-					<div class="hero__title-small">This is the Aurora Template.</div>
+					<div class="hero__title-large">제목</div>
+					<div class="hero__title-small">부제목</div>
 				</div>
 				<div class="hero__photo-wrapper">
 					<div class="hero__photo">
 					</div>
 				</div>
 				<div class="hero__description">
-					It was created for my <a target="_blank" href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Desc&utm_campaign=Freebie">personal portfolio</a> (but never used) and now I'm releasing it for free. Edit and use this template as you want, except selling or crediting it as your own. It would also be cool if you could share this. Did I forgot to mention that it also includes small easter egg? It does.
+					내용
 				</div>
 				<div class="hero__call-to-action">
-					<a href="https://goo.gl/lp9Gd6" target="_blank" class="hero__button  ghost-button  ghost-button--hero">Download Template &nbsp; <i class="fa fa-download"></i></a>
-					<a href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Alt-Button&utm_campaign=Freebie" target="_blank" class="hero__alt-button">...or find out more about me.</a>
+					<a href="/chat" class="hero__button  ghost-button  ghost-button--hero">로그인&nbsp; <i class="fa fa-download"></i></a>
+					<a href="/test" class="hero__button  ghost-button  ghost-button--hero">게시판&nbsp; <i class="fa fa-download"></i></a>
 				</div>
 			</div>
 		</div>

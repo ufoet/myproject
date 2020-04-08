@@ -31,7 +31,7 @@
 <body>
 <div>
 	<div class="box1">
-		<img alt="배경" src="static/img/배경.jpg"/>
+		BOX1
 	</div>
 	<div class="box2">
 		BOX2
